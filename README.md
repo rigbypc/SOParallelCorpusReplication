@@ -5,9 +5,6 @@
 ## [C2: Standard NLP approach (Data, alignment and usages)](https://drive.google.com/file/d/1Y9Lg5S-KigY1jspaHOTe2tvCPOUk0pFY/view?usp=sharing)
 ## [C3: Software engineering task approach (Data, alignment and usages)](https://drive.google.com/file/d/1X52lrEyKNKdMuSmX-1edvpFmm5FYmNpG/view?usp=sharing)
 
-## [Code used for Evaluation](https://github.com/mrsumitbd/SOParallelCorpusReplication/tree/master/SourceCode)
-
-
 # Processing Data with [OpenNMT](http://opennmt.net/)
 cd ~/OpenNMT
 1. For tokenization run from command line:

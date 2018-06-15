@@ -30,8 +30,8 @@ mkdir -p ~/SOParallelCorpusReplication/BerkeleyAligner/data/train
 
 mkdir ~/SOParallelCorpusReplication/BerkeleyAligner/data/test
 
-2. Populate the BerkeleyAligner/data/train folder with train.en and train.cd
-3. Populate the BerkeleyAligner/data/test folder with test.en and test.cd
-4. run java -Xms2g -Xmx4g -jar berkeleyaligner.jar ++.conf configuration.conf
+4. Populate the BerkeleyAligner/data/train folder with train.en and train.cd
+5. Populate the BerkeleyAligner/data/test folder with test.en and test.cd
+6. run java -Xms2g -Xmx4g -jar berkeleyaligner.jar ++.conf configuration.conf
 
-The last command will create a folder ~/SOParallelCorpusReplication/BerkeleyAligner/output and fill in the folder with many files. Among the files we need only stage2.1.params.txt. This file is the first argument for [AlignmentEntropyStat.py](https://github.com/mrsumitbd/SOParallelCorpusReplication/blob/master/SourceCode/AlignmentEntropyStat.py)
+The last command will create a folder ~/SOParallelCorpusReplication/BerkeleyAligner/output and fill in the folder with many files. Among the files we need only stage2.1.params.txt. This file is the first argument for [AlignmentEntropyStat.py](https://github.com/mrsumitbd/SOParallelCorpusReplication/blob/master/SourceCode/AlignmentEntropyStat.py).

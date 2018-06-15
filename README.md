@@ -14,7 +14,8 @@ cd ~/OpenNMT
 th tools/tokenize.lua -mode space -nparallel 4 < ~/data/eng.txt > ~/data/eng.tok
 th tools/tokenize.lua -mode space -nparallel 4 < ~/data/code.txt > ~/data/code.tok
 
-2. For creating the dictionary run the following command from the command line:
+2. For creating the dictionary run from the command line:
 th preprocess.lua -train_src ~/data/eng.tok -train_tgt ~/data/code.tok -keep_frequency true -save_data ~/data/dictionary
+
 This command creates a binrary file with .t7 extension. For our purpose we do not need that file.
 rm ~/data/*.t7

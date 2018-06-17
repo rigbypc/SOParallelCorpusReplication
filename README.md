@@ -8,8 +8,8 @@
 # Processing Data with [OpenNMT](http://opennmt.net/)
 cd ~/OpenNMT
 1. For tokenization run from command line:
-th tools/tokenize.lua -mode space -nparallel 4 < ~/data/eng.txt > ~/data/eng.tok
-th tools/tokenize.lua -mode space -nparallel 4 < ~/data/code.txt > ~/data/code.tok
+th tools/tokenize.lua -mode space < ~/data/eng.txt > ~/data/eng.tok
+th tools/tokenize.lua -mode space < ~/data/code.txt > ~/data/code.tok
 
 2. For creating the dictionary run from the command line:
 th preprocess.lua -train_src ~/data/eng.tok -train_tgt ~/data/code.tok -keep_frequency true -save_data ~/data/dictionary

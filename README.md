@@ -18,8 +18,11 @@ For each corpus there will be a dictionary with three columns: token | 1-indexed
 The first four rows of each dictionary contains:
 
 Blank: <blank>
+  
 Unknown tokens: <unk>
+
 Start sequence: <s>
+
 End sequqnce: </s>
 
 Besides creating the dictionary previous command creates a binrary file with .t7 extension. For our purpose we do not need that file.

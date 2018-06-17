@@ -14,19 +14,19 @@ th tools/tokenize.lua -mode space -nparallel 4 < ~/data/code.txt > ~/data/code.t
 2. For creating the dictionary run from the command line:
 th preprocess.lua -train_src ~/data/eng.tok -train_tgt ~/data/code.tok -keep_frequency true -save_data ~/data/dictionary
 
-For each corpus there will be a dictionary with three columns:
+For each corpus there will be a dictionary with three columns (tab separated):
 
-token <TAB> 1-indexedtoken id <TAB> Occurance frequency
+token | 1-indexedtoken id | Occurance frequency
 
 The first four tokens of each dictionary contains:
 
-Blank tokens
-  
-Unknown tokens `<unk>`
+`<blank>`
 
-Start sequence
+`<unk>`
 
-End sequqnce
+`<s>`
+
+`</s>`
 
 Besides creating the dictionary previous command creates a binrary file with .t7 extension. For our purpose we do not need that file.
 

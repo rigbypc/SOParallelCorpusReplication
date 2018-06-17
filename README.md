@@ -16,7 +16,7 @@ th preprocess.lua -train_src ~/data/eng.tok -train_tgt ~/data/code.tok -keep_fre
 
 For each corpus there will be a dictionary with three columns (tab separated):
 
-token | 1-indexedtoken id | Occurance frequency
+token | 1-indexed token id | Occurance frequency
 
 The first four tokens of each dictionary contains:
 

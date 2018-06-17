@@ -22,7 +22,7 @@ The first four tokens of each dictionary contains:
 
 Blank tokens
   
-Unknown tokens
+Unknown tokens `<unk>`
 
 Start sequence
 

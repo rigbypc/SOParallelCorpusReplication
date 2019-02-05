@@ -1,4 +1,5 @@
-# [Link](https://doi.org/10.6084/m9.figshare.7673927.v2) to Data
+# Data
+[Download Data](https://doi.org/10.6084/m9.figshare.7673927.v2)
 
 
 # Processing Data with [OpenNMT](http://opennmt.net/)

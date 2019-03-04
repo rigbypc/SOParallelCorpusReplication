@@ -4,6 +4,12 @@ Created on Tue Apr 25 11:25:13 2016
 @author: MusfiqurRahman
 """
 
+"""
+This script reads StackOverflow data from xml files and dump it into a database.
+The database should contain a posts table where the data are being dumped into.
+"""
+
+
 
 import xml.etree.ElementTree
 import psycopg2, sys

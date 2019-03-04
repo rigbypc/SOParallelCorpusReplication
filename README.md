@@ -8,9 +8,9 @@ Each data set consists of three folders: Alignment, Corpora and Usages. Contents
 
 | Folder | Content |
 | ------ | -------- |
-| Alignment | CSV file containing the Per-word entropy values plotted in Figure 2 in the paper |
+| Alignment | CSV file containing the Per-word entropy values plotted in Figure 2 in the paper. |
 | Corpora | Two text files: eng.txt and code.txt. These files contain the english and code corpora. |
-| Usages | Two files with .dict extensions. Each file contains the usage frequencies for every English and code tokens. There are three columns. |
+| Usages | Two files with .dict extensions. Each file contains the usage frequencies for every English and code tokens. There are three columns and how we get those columns are explained in the following section. |
 
 
 

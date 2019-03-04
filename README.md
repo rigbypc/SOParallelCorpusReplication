@@ -17,7 +17,7 @@ For each corpus there will be a dictionary with three columns (tab separated):
 
 | token | 1-indexed token id | Occurance frequency |
 | ------------- | ------------- | ------------- |
-| a,b,c  | 1236  | 86 |
+| Drawable.Drawable |	5 |	658 |
 
 The first four tokens of each dictionary contains:
 
@@ -29,7 +29,9 @@ The first four tokens of each dictionary contains:
 
 `</s>`
 
-Besides creating the dictionary previous command creates a binrary file with .t7 extension. For our purpose we do not need that file.
+So, we remove them.
+
+Besides creating the dictionary (the .dict files) previous command creates a binrary file with .t7 extension. For our purpose we do not need that file.
 
 rm ~/data/*.t7
 

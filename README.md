@@ -1,4 +1,4 @@
-We downloaded the StackOverflow dump from [archive.org](https://archive.org/details/stackexchange). The data are in XML format. We parsed the XML files and dumped the data into a database.
+We downloaded the StackOverflow dump from [archive.org](https://archive.org/details/stackexchange). The data are in XML format. We parsed the XML files and dumped the data into a database using the [DumpSO.py](https://github.com/mrsumitbd/SOParallelCorpusReplication/blob/master/SourceCode/DumpSO.py) script.
 
 
 # Links to Data

@@ -4,6 +4,16 @@
 ## [C2: Standard NLP approach (Data, alignment and usages)](https://drive.google.com/file/d/1Y9Lg5S-KigY1jspaHOTe2tvCPOUk0pFY/view?usp=sharing)	
 ## [C3: Software engineering task approach (Data, alignment and usages)](https://drive.google.com/file/d/1X52lrEyKNKdMuSmX-1edvpFmm5FYmNpG/view?usp=sharing)
 
+Each data set consists of three folders: Alignment, Corpora and Usages. Contents in each folder are as follows:
+
+| Folder | Content |
+| ------ | -------- |
+| Alignment | CSV file containing the Per-word entropy values plotted in Figure 2 in the paper |
+| Corpora | Two text files: eng.txt and code.txt. These files contain the english and code corpora. |
+| Usages | Two files with .dict extensions. Each file contains the usage frequencies for every English and code tokens. There are three columns. |
+
+
+
 # Processing Data with [OpenNMT](http://opennmt.net/)
 cd ~/OpenNMT
 1. For tokenization run from command line:

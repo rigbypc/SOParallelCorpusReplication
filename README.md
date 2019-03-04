@@ -13,7 +13,9 @@ th tools/tokenize.lua -mode space < ~/data/code.txt > ~/data/code.tok
 2. For creating the dictionary run from the command line:
 th preprocess.lua -train_src ~/data/eng.tok -train_tgt ~/data/code.tok -keep_frequency true -save_data ~/data/dictionary
 
-For each corpus there will be a dictionary with three columns (tab separated):
+For each corpus there will be a dictionary with three columns (tab separated).
+
+Example:
 
 | token | 1-indexed token id | Occurance frequency |
 | ------------- | ------------- | ------------- |

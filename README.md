@@ -1,4 +1,4 @@
-We downloaded the StackOverflow dump which is hosted on this [link](https://archive.org/details/stackexchange). The data are in XML format. We parsed the XML files and dumped the data into a database using the [DumpSO.py](https://github.com/mrsumitbd/SOParallelCorpusReplication/blob/master/SourceCode/DumpSO.py) script.
+We downloaded the StackOverflow dump which is hosted on this [link](https://archive.org/details/stackexchange). The data are in XML format. We parsed the XML files and dumped the data into a database using the [DumpSO.py](https://github.com/mrsumitbd/SOParallelCorpusReplication/blob/master/SourceCode/DumpSO.py) script. This corpus contains only Android posts. For another paper, we created a similar corpus of [general Java posts](https://github.com/CESEL/CodeEntropyReplication).
 
 
 # Links to Data
